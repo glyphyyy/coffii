@@ -43,13 +43,13 @@ export default function Footer() {
                             Info
                         </li>
                         <li>
-                            <a href="#">Cookies</a>
+                            <a href="#intro">Cookies</a>
                         </li>
                         <li>
-                            <a href="#">Terms &amp; Conditions</a>
+                            <a href="#intro">Terms &amp; Conditions</a>
                         </li>
                         <li>
-                            <a href="#">Privacy</a>
+                            <a href="#intro">Privacy</a>
                         </li>
                     </ul>
                 </div> 
@@ -59,13 +59,13 @@ export default function Footer() {
                             Socials
                         </li>
                         <li>
-                            <a href="#">Twitter</a>
+                            <a href="#intro">Twitter</a>
                         </li>
                         <li>
-                            <a href="#">Instagram</a>
+                            <a href="#intro">Instagram</a>
                         </li>
                         <li>
-                            <a href="#">Facebook</a>
+                            <a href="#intro">Facebook</a>
                         </li>
                     </ul>
                 </div>            
