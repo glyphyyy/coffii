@@ -1,0 +1,49 @@
+.scroll {
+    position: absolute;
+    bottom:40px;
+    right: 60px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 20;
+    overflow-y: hidden;
+
+    @media screen and (max-width: 750px)
+    {
+        right: 10px;
+        bottom: -10px;
+    }
+
+    img {
+        position: absolute;
+        height: 90px;
+        transform: translateY(0%);
+
+        @media screen and (max-width: 750px)
+        {
+            height: 50px;
+        }
+
+        &#ball {
+            opacity: 0;
+            animation: scrollAnim 3s ease infinite;
+    
+            @keyframes scrollAnim {
+                25% {
+                    opacity: 1;
+                    transform: translateY(0%);
+                }
+                60%, 70% {
+                    opacity: 0;
+                    transform: translateY(45%);
+                }
+                75%, 100% {
+                    opacity: 0;
+                    transform: translateY(45%);
+                }
+            }
+        }
+    }
+}
